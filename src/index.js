@@ -25,10 +25,6 @@ function formatDate(date) {
 
 }
 
-let day = days[date.getDay()];
-
-return `${day}` ${hours}:${minutes}`;
-
 function searchCity(city) {
 let apiKey = `ftcca3f3of442d09ad02e70f73bc3e8b`;
 let apiUrl =
